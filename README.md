@@ -13,4 +13,4 @@ The program annotates an INFO/GC float tag in the output VCF file describing the
 ## Compilation
 HTSLib libraries are required to compile and execute. First load HTSLib, and then compile the executable using the following command:
 
-```gcc -O3 -o annotate_mnv vcf_annotate_mnv.c -lhts```
+```gcc -O3 -o annotate_gc_content annotate_gc_content.c -lhts```
